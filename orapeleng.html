@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Container for the whole website */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Menu container */
+        nav {
+            background-color: #333;
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        /* Menu items style */
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            display: block;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            border-radius: 4px;
+        }
+
+        /* Hover effect on menu */
+        nav ul li a:hover {
+            background-color: #66ff66; /* Light green */
+            color: black;
+            transform: scale(1.1);
+        }
+
+        /* Section styling */
+        section {
+            padding: 40px;
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        /* Hover effect on sections */
+        section:hover {
+            transform: scale(1.02);
+            background-color: #f9f9f9;
+        }
+
+        /* Section headings */
+        section h1 {
+            color: #66ff66; /* Light green */
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        /* Paragraphs */
+        section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        /* Footer link hover */
+        footer a {
+            color: #66ff66;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    </head>
+    <body>
+    
+        <div class="container">
+            <!-- Navigation Menu -->
+            <nav>
+                <ul>
+                    <li><a href="#Hardware">Hardware</a></li>
+                    <li><a href="#Software">Code Editors</a></li>
+                    <li><a href="#ESP32">Esp32 project</a></li>
+                    <li><a href="#Credits">Credits</a></li>
+                </ul>
+            </nav>
+
+            <section id="Hardware">
+                <h1>Keypad </h1>
+                <p>Keypad:4x4 matrixA 4x4 matrix is a grid with 4 rows and 4 columns,commonly used in mathematics, computer science, and engineering applications. Here's an example</p>
+                    <img src="ap.png" alt="Keypad">
+                
+                </p>
+            </section>
+
+            <section id="Hardware">
+                <h1>Display</h1>
+                <p>The 128x64 blue backlight LCD is a graphical display module commonly used in embedded systems like in our ESP32 project. It allows you to display text, graphics, and animations</p>
+                <img src="Screenshot (6).png">
+            </section>
+
+            <section id="Hardware">
+                <h1>BN280 GPS MODULE</h1>
+                <p>The BN-280 GPS Module is a u-blox 8-based GPS module that provides accurate location data and is well-suited for ESP32 projects like your GPS navigation system</p>
+                <img src="gps 1.jfif">
+            
+            </section>
+
+            <section id="Hardware">
+                <h1>ESP32</h1>
+                <P>The ESP32 is a powerful microcontroller with built-in Wi-Fi and Bluetooth, making it ideal for projects like your GPS navigation system with a 128x64 LCD and keypad</P>
+                <img src="esp32.jfif">
+            </section>
+
+            <section id="Software">
+                <h1> Arduino IDE</h1>
+                <p>The Arduino IDE is one of the easiest ways to program the ESP32 for your GPS navigation system. It supports C/C++ coding and has built-in libraries for handling your GPS module, 128x64 LCD, and 4x4 keypad.</p>
+                <img src="ide.jfif" >
+            </section>
+
+            <section id="Software">
+                <h1>Visual Studio Code</h1>
+                <p>Visual Studio Code (VS Code) is a popular, lightweight, and powerful source code editor developed by Microsoft. It's open-source and available for Windows, macOS, and Linux. It supports a wide variety of programming languages and has a rich ecosystem of extensions for various development tasks</p>
+                <img src="Vs.jfif">
+            </section>
+
+            <section id="Software">
+                <h1>C++</h1>
+                <p>C++ is a powerful, general-purpose programming language that is widely used for systems programming, game development, software applications, and more. It is an extension of the C programming language with object-oriented features and more advanced capabilities, making it suitable for both low-level and high-level programming</p>
+                <img src="c.png">
+            </section>
+
+            <section id="Software">
+                <h1>HTML</h1>
+                <p>It looks like you're referring to HTML. HTML (Hypertext Markup Language) is the standard language used to create and design web pages. If you're working on a web-based interface, you can use HTML to structure the content of your web pages, combined with CSS for styling and JavaScript for interactive features</p>
+                <img src="hmt.png">
+                </section>
+                <section id="Software">
+                    <h1>CSS</h1>
+                    <p>CSS (Cascading Style Sheets) is used to style and layout HTML content. It controls things like colors, fonts, spacing, and positioning. You can use CSS either directly within an HTML document or in a separate file linked to the HTM</p>
+                    <img src="cs.png">
+                </section>
+
+                <section id="ESP32">
+                    <h1>BOTSAT 1 RECEIVER</h1>
+                    <p></p>
+                    <img src="Screenshot (1).png">
+                </section>
+
+                <section id="Credits">
+                    <h1>Project by </h1>
+                    <h3><li>ORAPELENG TSHWARISA</li>
+                    <li>PAKO OBATLENG</li>
+                <li>NICOLE MOGOBE</li>
+            <li>TSHIAMO KOMOKI</li>
+        <li>NEELO MOSEKWA</li>
+    <li>NEO BOTLHOKO</li></h3>
+                </section>
+
+                <section id="Credits">
+                    <h1>Libraries Used</h1>
+                    <h4><li>Wire</li>
+                        <li>U8g2lib</li>
+                        <li>TinyGPS++</li>
+                        <li>Keypad</li>
+                        <li>WiFi</li>
+                        <li>HTTPClient</li>
+                        <li>math</li>
+
+                    </h4>
+                </section>
+
+                <section id="Credits">
+                    <h1>Source Code</h1>
+                    <h2><a href="source.html"><h3>click here</h3></a><h2>
+                    
+                    
+                </section>
+                <!-- Footer -->
+            <footer>
+                <p>© 2025 My Website. All rights reserved. <br><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </footer>
+        </div>
+    
+    </body>
+    </html>
+    
